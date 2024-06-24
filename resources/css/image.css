@@ -1,0 +1,18 @@
+#mindmap.image {
+    position: relative;
+}
+
+#mindmap.image::after {
+    content: '';
+    background-image: url('/public/storage/images/TODO-add-image');
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    filter: brightness(0.5);
+}

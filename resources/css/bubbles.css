@@ -1,0 +1,23 @@
+#mindmap.bubbles {
+    background-color: #fee440;
+}
+
+#mindmap.bubbles div,
+#mindmap.bubbles svg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mindmap.bubbles div {
+    background-color: #fee440;
+    z-index: 1;
+    filter: brightness(0.5);
+}
+
+#mindmap.bubbles svg {
+    z-index: 2;
+    filter: brightness(0.5);
+}

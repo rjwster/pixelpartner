@@ -1,0 +1,6 @@
+#mindmap.simple {
+    background: white;
+    background-image: radial-gradient(#E6E6E6 10%, transparent 0), radial-gradient(#E6E6E6 10%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
