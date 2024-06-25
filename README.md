@@ -11,7 +11,7 @@ De mindmap module maakt gebruik van het MVC design pattern binnen Laravel, waard
 ### Functionaliteit:
 
 1. **Aanmaken en Bewerken van Mindmaps**:
-   - Gebruikers kunnen handmatig ideeën toevoegen of de AI-ideeën generator gebruiken om nieuwe concepten te bedenken.
+   - Gebruikers kunnen handmatig ideeën toevoegen of de AI-ideeën generator gebruiken om nieuwe concepten te bedenken. Voor een indruk bekijk deze video https://www.dropbox.com/scl/fi/xm26lv7lsfar6lk5th3ki/PixelPartner_Brainstormtool.mp4?rlkey=vl43x2zdjojxgpfmwz4pif0sh&dl=1 .
 
 2. **Genereren van Ideeën**:
    - Bij het klikken op de knop om ideeën te genereren, wordt de `getIdeas()` functie in `Idea.php` aangeroepen.
